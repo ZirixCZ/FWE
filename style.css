@@ -1,0 +1,124 @@
+body {
+  background-color: #001A2B;
+  background-position: center;
+  background-size: 400%;
+  overflow-y: visible;
+  height: 900px;
+  margin: 0;
+  padding: 0;
+}
+.bg_top_div {
+  background-image: url("./resources/954241.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.Title_div {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+#Color_change {
+  color: rgb(170, 170, 255);
+
+}
+
+#Title_Game_Name {
+  Left: 8%;
+  color: white;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  top: 50%;
+  font-size: 70px;
+
+}
+
+.button_handler {
+  z-index: 2;
+  display: flex;
+  cursor: pointer;
+}
+
+#downoland_button {
+  top: 300px;
+  position: absolute;
+  top: 550px;
+  left: 25%;
+  outline: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 60px;
+  width: 250px;
+  height: 60px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #014788, #068bb4, #125ca1);
+  background-size: 400%;
+  border-radius: 35px;
+  z-index: 2;
+  border: none;
+  
+}
+
+#downoland_button:hover {
+  animation: animate 8s linear infinite;
+}
+
+@keyframes animate 
+{
+  0%
+  {
+      background-position: 0%;
+  }
+  100%
+  {
+      background-position: 400%;
+  }
+}
+
+#downoland_button::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  Left: -5px;
+  Right: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #014788, #068bb4, #125ca1);
+  background-size: 400%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+#downoland_button:hover:before {
+  animation: animate 7s linear infinite;
+  filter: blur(15px);
+  opacity: 1;
+
+}
+
+.icon_div {
+  width: 175px;
+}
+
+#discord_ico {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  cursor: pointer;
+  width: 175px;
+}
+
