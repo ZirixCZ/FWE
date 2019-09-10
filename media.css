@@ -1,9 +1,14 @@
 /*(1920x1080) Full HD Display */
 @media  screen and (min-width: 1920px) {
+    body {
+        height: 1100px;
+        background-repeat: repeat;
+        background-position: center;
+        }
     #downoland_button {
         width: 325px;
         height: 69px;
-        top: 820px;
+        top: 800px;
         Left: 30%;
         font-size: 32px;
     }
