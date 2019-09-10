@@ -62,11 +62,11 @@
         background-position: center;
         }
     #downoland_button {
-        width: 260px;
-        height: 65px;
-        top: 620px;
+        width: 290px;
+        height: 67px;
+        top: 600px;
         Left: 30%;
-        font-size: 27px;
+        font-size: 28px;
     }
     #Title_Game_Name {
         font-size: 80px;
@@ -77,33 +77,26 @@
         width: 205px;
     }
     
-
 }
 
-  /*(1280x720) Standart HD Display */
-  @media screen and (min-aspect-ratio: 1280/720) {
+  /*(720x1280) Phone Display */
+  @media screen and (max-width: 600px) {
     body {
-        height: 1000px;
+        height: 900px;
         width: 100%;
         background-repeat: repeat;
         background-position: center;
         }
     #downoland_button {
-        width: 265px;
-        height: 65px;
-        top: 600px;
-        Left: 30%;
-        font-size: 27px;
+       display: none;
     }
     #Title_Game_Name {
-        font-size: 80px;
-        Left: 10%;
-        top: 54%;
+      display: none;
     }
     #discord_ico {
-        width: 195px;
+        top: 0%;
+        left: 25%;
+        width: 205px;
     }
-    
-
-}
+  }
 
