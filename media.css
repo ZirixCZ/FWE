@@ -1,0 +1,18 @@
+/*(1920x1080) Full HD Display */
+@media  screen and (min-width: 1920px) {
+    #downoland_button {
+        width: 325px;
+        height: 69px;
+        top: 820px;
+        Left: 30%;
+        font-size: 32px;
+    }
+    #Title_Game_Name {
+        font-size: 90px;
+        Left: 12%;
+    }
+    #discord_ico {
+        width: 240px;
+    }
+    
+}
