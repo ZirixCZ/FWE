@@ -56,7 +56,7 @@
   /*(1366x768) HD Display */
   @media screen and (min-aspect-ratio: 1366/768) {
     body {
-        height: 1800px;
+        height: 1000px;
         width: 100%;
         background-repeat: repeat;
         background-position: center;
@@ -64,14 +64,14 @@
     #downoland_button {
         width: 260px;
         height: 65px;
-        top: 600px;
+        top: 620px;
         Left: 30%;
         font-size: 27px;
     }
     #Title_Game_Name {
         font-size: 80px;
         Left: 10%;
-        top: 50%;
+        top: 55%;
     }
     #discord_ico {
         width: 205px;
@@ -83,7 +83,7 @@
   /*(1280x720) Standart HD Display */
   @media screen and (min-aspect-ratio: 1280/720) {
     body {
-        height: 1800px;
+        height: 1000px;
         width: 100%;
         background-repeat: repeat;
         background-position: center;
@@ -98,7 +98,7 @@
     #Title_Game_Name {
         font-size: 80px;
         Left: 10%;
-        top: 50%;
+        top: 54%;
     }
     #discord_ico {
         width: 195px;
