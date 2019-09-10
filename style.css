@@ -25,13 +25,13 @@ body {
   padding: 0;
 }
 #Color_change {
-  color: rgb(170, 170, 255);
+  color: rgb(255, 255, 255);
 
 }
 
 #Title_Game_Name {
   Left: 8%;
-  color: white;
+  color: rgba(255, 255, 255, 0.767);
   position: absolute;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
