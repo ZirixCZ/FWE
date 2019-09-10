@@ -6,15 +6,16 @@
         background-position: center;
         }
     #downoland_button {
-        width: 325px;
-        height: 69px;
-        top: 800px;
+        width: 375px;
+        height: 72px;
+        top: 700px;
         Left: 30%;
         font-size: 32px;
     }
     #Title_Game_Name {
-        font-size: 90px;
+        font-size: 100px;
         Left: 12%;
+        top: 40%;
     }
     #discord_ico {
         width: 240px;
