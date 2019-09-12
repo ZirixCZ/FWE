@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1920px) {
+    .nav {
+        position: fixed;
+        width: 100%;
+        z-index: 69;
+    }
+    
+    .nav .nav_wrapper {
+        display: block;
+        height: 40px;
+        line-height: 0px;
+        padding: 10 10px;
+        color: #ffffff;
+        font-size: 40px;
+        letter-spacing: 1px;
+        float: right;
+        -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+        -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+        transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    .border_top {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.089);
+        z-index: -1;
+        top: 0;
+        width: 100%;
+        height: 80px;
+    }
+    #facebook_link {
+        height: 100px;
+        line-height: 80px;
+        padding: 0 10px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    #facebook_link:hover {
+        cursor: pointer;
+        color: rgb(181, 201, 255);
+    }
+    #youtube_link {
+        height: 100px;
+        line-height: 80px;
+        padding: 0 10px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    #youtube_link:hover {
+        cursor: pointer;
+        color: rgb(255, 182, 182);
+    }
+    #discord_link {
+        color: #ffffff;
+        height: 100px;
+        line-height: 80px;
+        padding: 0 10px;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    #discord_link:hover {
+        cursor: pointer;
+        color: rgb(211, 211, 211);
+    }
+
+    #name_logo {
+        color: white;
+        height: 100px;
+        font-size: 50px;
+        line-height: 60px;
+        padding: 0 22px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        text-decoration: none;
+    }
+    .header {
+        background-image: url("./resources/larutadelsorigens_firewatch-hd-wallpaper_1235598.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .header_logo-box {
+        position: absolute;
+        top: 1150px;
+        left: 50%;
+        font-size: 30px;
+        transform: translate(-50%, -50%);
+        align-content: center;
+        text-align: center;
+    }
+
+    .download_btn {
+        cursor: pointer;
+        padding: 5px;
+        background-color: transparent;
+        border: 1px solid white;
+        transition: all .2s;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .download_btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: #212121;
+    }
+}
