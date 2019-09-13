@@ -173,7 +173,7 @@ body {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f3f3f3;
   }
   
   /* Handle */
@@ -182,7 +182,5 @@ body {
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #000094;
-  }
+
 

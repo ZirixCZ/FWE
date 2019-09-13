@@ -82,4 +82,13 @@
         line-height: 60px;
         padding: 0 22px;
     }
+
+
+
+
+    /* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
 }
