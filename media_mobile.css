@@ -18,13 +18,13 @@
         width: 100%;
         height: 40px;
     }
-    #facebook_link {
+    #twitter_link {
         height: 100px;
         line-height: 40px;
         font-size: 6px;
         padding: 0 8px;
     }
-    #facebook_link:hover {
+    #twitter_link:hover {
         cursor: pointer;
     }
     #youtube_link {
@@ -85,13 +85,13 @@
         width: 100%;
         height: 40px;
     }
-    #facebook_link {
+    #twitter_link {
         height: 100px;
         line-height: 40px;
         font-size: 11px;
         padding: 0 10px;
     }
-    #facebook_link:hover {
+    #twitter_link:hover {
         cursor: pointer;
     }
     #youtube_link {
@@ -149,12 +149,12 @@
         width: 100%;
         height: 40px;
     }
-    #facebook_link {
+    #twitter_link {
         line-height: 40px;
         font-size: 15px;
         padding: 0 10px;
     }
-    #facebook_link:hover {
+    #twitter_link:hover {
         cursor: pointer;
     }
     #youtube_link {

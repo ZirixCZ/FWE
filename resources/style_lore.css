@@ -6,6 +6,7 @@ html {
     width: 100%;
 }
 body {
+    background-color: #000032;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -21,12 +22,11 @@ body {
 .nav .nav_wrapper {
     display: block;
     height: 40px;
-    width: 150vh;
     line-height: 0px;
     padding: 10 10px;
     color: #ffffff;
     font-size: 15px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     float: left;
     -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
@@ -51,7 +51,7 @@ body {
     z-index: -1;
     top: 0;
     width: 100%;
-    height: 45px;
+    height: 40px;
 }
 #twitter_link {
     bottom: 0;
@@ -111,7 +111,7 @@ body {
 }
 
 .header {
-    background-image: url("./resources/larutadelsorigens_firewatch-hd-wallpaper_1235598.png");
+    background-color: #000032;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -191,80 +191,3 @@ body {
   }
   
   /* Handle on hover */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* another pages */
-.pages_div {
-    display: block;
-    height: 40px;
-    line-height: 0px;
-    padding:  10px;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 1px;
-    float: right;
-    -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
-    -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
-    transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
-    text-transform: uppercase;
-    
-}
-#lore_page {
-    text-decoration: none;
-    color: white;
-    z-index: 69;
-    height: 100px;
-    line-height: 30px;
-    padding: 0 22px;
-    font-weight: 900;
-    letter-spacing: 3px;
-    left: 100vh;
-}
-#lore_page:hover {
-    cursor: pointer;
-    color: rgb(207, 205, 205);
-}
-
-.header_lore {
-    background-color: #000032;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-.section_1_lore {
-    background-color: #000032;
-}
-.paragraph_div_lore {
-    z-index: 70;
-    position: absolute;
-    color: white;
-    top: 250px;
-    right: 45%;
-}
-#title_p_lore {
-    font-size: 40px;
-    color: white;
-}
