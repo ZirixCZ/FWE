@@ -228,7 +228,7 @@ body {
     text-transform: uppercase;
     
 }
-#lore_page {
+#about_page {
     text-decoration: none;
     color: white;
     z-index: 69;
@@ -239,12 +239,12 @@ body {
     letter-spacing: 3px;
     left: 100vh;
 }
-#lore_page:hover {
+#about_page:hover {
     cursor: pointer;
     color: rgb(207, 205, 205);
 }
 
-.header_lore {
+.header_about {
     background-color: #000032;
     background-size: cover;
     background-position: center;
@@ -254,17 +254,17 @@ body {
     position: relative;
 }
 
-.section_1_lore {
+.section_1_about {
     background-color: #000032;
 }
-.paragraph_div_lore {
+.paragraph_div_about {
     z-index: 70;
     position: absolute;
     color: white;
     top: 250px;
     right: 45%;
 }
-#title_p_lore {
+#title_p_about {
     font-size: 40px;
     color: white;
 }
