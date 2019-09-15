@@ -16,6 +16,8 @@ body {
     position: fixed;
     width: 100%;
     z-index: 69;
+    margin: 0;
+    padding: 0;
 }
 
 .nav .nav_wrapper {
@@ -214,10 +216,12 @@ body {
 
 /* another pages */
 .pages_div {
-    display: block;
+    clear: both;
+    display: flex;
+    top: 0;
     height: 40px;
     line-height: 0px;
-    padding:  10px;
+    padding:  0px;
     color: #ffffff;
     font-size: 20px;
     letter-spacing: 1px;
@@ -229,11 +233,12 @@ body {
     
 }
 #about_page {
+    clear: both;
     text-decoration: none;
     color: white;
     z-index: 69;
     height: 100px;
-    line-height: 30px;
+    line-height: 0px;
     padding: 0 22px;
     font-weight: 900;
     letter-spacing: 3px;
