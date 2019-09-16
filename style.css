@@ -216,21 +216,20 @@ body {
 
 /* another pages */
 .pages_div {
-    clear: both;
-    display: flex;
-    top: 0;
+
     height: 40px;
-    line-height: 0px;
-    padding:  0px;
+    width: 40vh;
+    line-height: 40px;
+    padding: 10 10px;
     color: #ffffff;
     font-size: 20px;
-    letter-spacing: 1px;
-    float: right;
+    letter-spacing: 1.5px;
+    float: left;
     -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+    text-decoration: none;
     text-transform: uppercase;
-    
 }
 #about_page {
     clear: both;
@@ -239,7 +238,7 @@ body {
     z-index: 69;
     height: 100px;
     line-height: 0px;
-    padding: 0 22px;
+    padding: 0 20px;
     font-weight: 900;
     letter-spacing: 3px;
     left: 100vh;
