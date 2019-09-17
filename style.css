@@ -24,7 +24,7 @@ body {
     display: block;
     height: 40px;
     width: 150vh;
-    line-height: 0px;
+    line-height: 5px;
     padding: 10 10px;
     color: #ffffff;
     font-size: 15px;
@@ -49,7 +49,7 @@ body {
 }*/
 .border_top {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.450);
+    background-color: rgba(0, 0, 0, 0.685);
     z-index: -1;
     top: 0;
     width: 100%;
@@ -65,7 +65,7 @@ body {
 }
 #twitter_link:hover {
     cursor: pointer;
-    color: rgb(145, 250, 250);
+    color: rgb(82, 255, 255);
 }
 #youtube_link {
     bottom: 0;
@@ -77,7 +77,7 @@ body {
 }
 #youtube_link:hover {
     cursor: pointer;
-    color: rgb(255, 139, 139);
+    color: rgb(252, 92, 92);
 }
 #discord_link {
     bottom: 0;
@@ -90,7 +90,7 @@ body {
 }
 #discord_link:hover {
     cursor: pointer;
-    color: rgb(199, 199, 199);
+    color: rgb(209, 209, 209);
 }
 /*
 #facebook_ico {
@@ -113,7 +113,7 @@ body {
 }
 
 .header {
-    background-image: url("./resources/larutadelsorigens_firewatch-hd-wallpaper_1235598.png");
+    background-image: url("./resources/Howling\ Wolf\ 4K\ Wallpapers.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,22 +157,21 @@ body {
 
 /* specifické upravy */
 .section {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #000032;
+    height: 300px;
+    background-color: #121D31;
 }
 .section_1 {
-    background-color: #000032;
+    height: 500px;
+    background-color: #121D31;
     }
 
 .section_2 {
-    background-color: #000032;
-    color: #000;
+    height: 500px;
+    background-color: #121D31;
 }
 .section_3 {
-    height: 70px;
-    background-color: #010120;
+    height: 60px;
+    background-color: rgb(14, 21, 36);
     color: #000;
 }
 
@@ -189,7 +188,7 @@ body {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #00005a;
+    background: rgb(14, 24, 41);
   }
   
   /* Handle on hover */
@@ -216,13 +215,12 @@ body {
 
 /* another pages */
 .pages_div {
-
     height: 40px;
     width: 40vh;
-    line-height: 40px;
+    line-height: 43px;
     padding: 10 10px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1.5px;
     float: left;
     -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
@@ -245,11 +243,11 @@ body {
 }
 #about_page:hover {
     cursor: pointer;
-    color: rgb(207, 205, 205);
+    color: rgb(230, 230, 230);
 }
 
 .header_about {
-    background-color: #000032;
+    background-color: #121D31;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -259,7 +257,7 @@ body {
 }
 
 .section_1_about {
-    background-color: #000032;
+    background-color: #121D31;
 }
 .paragraph_div_about {
     z-index: 70;

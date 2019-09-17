@@ -5,9 +5,13 @@
         font-size: 25px;
     }
     .nav .nav_wrapper {
-        width: 135vh; }
+        font-size: 20px;
+        width: 130vh; }
         .header_logo-box {
             top: 650px;
             font-size: 25px;
+        }
+        .border_top {
+            height: 60px;
         }
 }
