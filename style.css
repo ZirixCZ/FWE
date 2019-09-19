@@ -163,7 +163,7 @@ body {
 }
 #main_title_h2 {
     transform: translate(-50%, -50%);
-    top: 720px;
+    top: 650px;
     left: 50%;
     position: absolute;
     font-size: 35px;
@@ -172,7 +172,7 @@ body {
 
 #main_title_h3 {
     transform: translate(-50%, -50%);
-    top: 840px;
+    top: 810px;
     left: 25%;
     position: absolute;
     font-size: 30px;
@@ -182,7 +182,7 @@ body {
 #planet1_link {
     color: rgb(177, 177, 255);
     transform: translate(-50%, -50%);
-    top: 870px;
+    top: 840px;
     left: 48%;
     position: absolute;
     font-size: 27px;
@@ -193,7 +193,7 @@ body {
 #planet2_link {
     color: rgb(255, 149, 232);
     transform: translate(-50%, -50%);
-    top: 870px;
+    top: 840px;
     left: 62%;
     position: absolute;
     font-size: 27px;
