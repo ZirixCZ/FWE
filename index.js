@@ -1,4 +1,4 @@
-function ServerInvite() {
-    window.open("https://discord.gg/RhfeNFK");
+function inviteButton() {
+    window.location.replace("http://www.w3schools.com");
 }
     
