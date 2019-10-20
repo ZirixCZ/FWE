@@ -1,5 +1,5 @@
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
     color: #fff;
     padding: 0;
     margin: 0;
@@ -21,13 +21,12 @@ body {
 }
 
 .nav .nav_wrapper {
-
+    color: rgb(230, 230, 230);
     display: block;
     height: 40px;
     width: 150vh;
-    line-height: 45px;
+    line-height: 37px;
     padding: 10 10px;
-    color: #ffffff;
     font-size: 17px;
     letter-spacing: 2px;
     font-weight: 600;
@@ -36,7 +35,6 @@ body {
     -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     text-decoration: none;
-    text-transform: uppercase;
     
 }
 
@@ -55,7 +53,7 @@ body {
     z-index: -1;
     top: 0;
     width: 100%;
-    height: 50px;
+    height: 40px;
 }
 #twitter_link {
     bottom: 0;
@@ -64,8 +62,9 @@ body {
     letter-spacing: 3px;
 }
 #twitter_link:hover {
+    transition: all .2s;
     cursor: pointer;
-    color: rgb(200, 255, 255);
+    color: rgb(255, 255, 255);
 }
 #youtube_link {
     bottom: 0;
@@ -74,19 +73,20 @@ body {
     letter-spacing: 3px;
 }
 #youtube_link:hover {
+    transition: all .2s;
     cursor: pointer;
-    color: rgb(255, 208, 208);
+    color: rgb(255, 255, 255);
 }
 #discord_link {
     bottom: 0;
-    color: #ffffff;
     height: 100px;
     padding: 0 22px;
     letter-spacing: 3px;
 }
 #discord_link:hover {
+    transition: all .2s;
     cursor: pointer;
-    color: rgb(209, 209, 209);
+    color: rgb(255, 255, 255);
 }
 /*
 #facebook_ico {
@@ -99,9 +99,10 @@ body {
     margin: 5px;
 }
 #name_logo {
+    font-size: 18px;
     color: white;
-    height: 100px;
-    line-height: 30px;
+    height: 90px;
+    line-height: 29px;
     padding: 0 22px;
     font-weight: 900;
     letter-spacing: 3px;
@@ -113,6 +114,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -237,24 +240,22 @@ h1 {
 }
 */
 #scroll_anchor {
+    height: 50px;
+    width: 50px;
+    top: 600px;
+    left: 50%;
     cursor: pointer;
-    padding: 20px;
+
     background-color: transparent;
     border: 1px solid white;
     transition: all .2s;
     color: white;
     text-decoration: none;
-
     transform: translate(-50%, -50%);
-
-    line-height: 15px;
-
-    height: 10px;
-    width: 10px;
-    top: 600px;
-    left: 50%;
+    line-height: 50px;
+    text-align: center;
     position: absolute;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 900;
 }
 #scroll_anchor {
@@ -325,7 +326,7 @@ h1 {
 .pages_div {
     height: 40px;
     width: 40vh;
-    line-height: 44px;
+    line-height: 37px;
     padding: 10 10px;
     color: #ffffff;
     font-size: 18px;
@@ -336,7 +337,6 @@ h1 {
     -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
     text-decoration: none;
-    text-transform: uppercase;
 }
 #about_page {
     clear: both;
