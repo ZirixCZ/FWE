@@ -126,7 +126,7 @@ body {
 
 .header_logo-box {
     position: absolute;
-    top: 120px;
+    top: 150px;
     left: 50%;
     transform: translate(-50%, -50%);
     align-content: center;
@@ -227,7 +227,7 @@ h1 {
 }*/
 #main_title_h4 {
     transform: translate(-50%, -50%);
-    top: 110px;
+    top: 90px;
     left: 50%;
     position: absolute;
     font-size: 32px;
@@ -273,7 +273,7 @@ h1 {
 #scroll_anchor {
     height: 50px;
     width: 50px;
-    top: 600px;
+    top: 575px;
     left: 50%;
     cursor: pointer;
 
@@ -307,11 +307,11 @@ h1 {
     
 }
 #section_1 {
-    height: 150px;
+    height: 90px;
     background-color: rgb(23, 18, 32);
     }
 #section_2 {
-    height: 300px;
+    height: 100px;
     background-color: #130F1B;
     }
 
