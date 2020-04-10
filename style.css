@@ -22,7 +22,7 @@ body {
 }
 
 .nav .nav_wrapper {
-    color: rgb(255, 255, 255);
+    color: white;
     display: block;
     height: 40px;
     width: 150vh;
@@ -63,9 +63,9 @@ body {
     letter-spacing: 3px;
 }
 #twitter_link:hover {
-    transition: all .2s;
+    transition: all .3s;
     cursor: pointer;
-    color: rgb(81, 171, 216);
+    color: rgb(96, 223, 255);
 }
 #youtube_link {
     bottom: 0;
@@ -74,9 +74,9 @@ body {
     letter-spacing: 3px;
 }
 #youtube_link:hover {
-    transition: all .2s;
+    transition: all .3s;
     cursor: pointer;
-    color: rgb(216, 79, 79);
+    color: rgb(96, 223, 255);
 }
 #discord_link {
     text-decoration: none;
@@ -87,9 +87,9 @@ body {
     letter-spacing: 3px;
 }
 #discord_link:hover {
-    transition: all .2s;
+    transition: all .3s;
     cursor: pointer;
-    color: rgb(179, 179, 179);
+    color: rgb(96, 223, 255);
 }
 /*
 #facebook_ico {
@@ -151,7 +151,7 @@ body {
     padding: 15px;
     background-color: transparent;
     border: 1px solid white;
-    transition: all .2s;
+    transition: all .3s;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -178,7 +178,7 @@ h1 {
     padding: 15px;
     background-color: transparent;
     border: 1px solid white;
-    transition: all .2s;
+    transition: all .3s;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -279,7 +279,7 @@ h1 {
 
     background-color: transparent;
     border: 1px solid white;
-    transition: all .2s;
+    transition: all .3s;
     color: white;
     text-decoration: none;
     transform: translate(-50%, -50%);
