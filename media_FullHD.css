@@ -19,6 +19,32 @@
             font-size: 20px;
             height: 50px;
             width: 50px;
-            top: 950px;
+            top: 850px;
+        }
+
+
+
+        #section_2 {
+            height: 300px;;
+        }
+        #main_aboutparagraph {
+            top: 1350px;
+        }
+        #main_aboutparagraph1 {
+            top: 1500px;
+        }
+        #main_infoparagrapth {
+            top: 1650px;
+        }
+        #main_infoparagrapth1 {
+            top: 1800px;
+        }
+
+
+
+        .href_link-holder {
+            line-height: 47px;
+            font-size: 22px;
+            width: 30vh;
         }
 }
