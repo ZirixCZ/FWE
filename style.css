@@ -25,7 +25,7 @@ body {
     color: white;
     display: block;
     height: 40px;
-    width: 150vh;
+    width: 125vh;
     line-height: 37px;
     padding: 10 10px;
     font-size: 17px;
@@ -66,6 +66,7 @@ body {
     transition: all .3s;
     cursor: pointer;
     color: rgb(96, 223, 255);
+    text-shadow: 1px 1px 2px rgb(0, 14, 19);
 }
 #youtube_link {
     bottom: 0;
@@ -77,6 +78,7 @@ body {
     transition: all .3s;
     cursor: pointer;
     color: rgb(96, 223, 255);
+    text-shadow: 1px 1px 2px rgb(0, 14, 19);
 }
 #discord_link {
     text-decoration: none;
@@ -90,6 +92,52 @@ body {
     transition: all .3s;
     cursor: pointer;
     color: rgb(96, 223, 255);
+    text-shadow: 1px 1px 2px rgb(0, 14, 19);
+}
+
+.href_link-holder {
+    color: white;
+    display: block;
+    height: 40px;
+    width: 40vh;
+    line-height: 37px;
+    padding: 10 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    float: right;
+    -webkit-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+    -o-transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+    transition: height .4s ease,line-height .4s ease,margin .4s ease,padding .4s ease;
+    text-decoration: none;
+}
+#about-section_link {
+    text-decoration: none;
+    color: white;
+    bottom: 0;
+    height: 100px;
+    padding: 0 22px;
+    letter-spacing: 3px;
+}
+#about-section_link:hover {
+    transition: all .3s;
+    cursor: pointer;
+    color: rgb(96, 223, 255);
+    text-shadow: 1px 1px 2px rgb(0, 14, 19);
+}
+#info-section_link {
+    text-decoration: none;
+    color: white;
+    bottom: 0;
+    height: 100px;
+    padding: 0 22px;
+    letter-spacing: 3px;
+}
+#info-section_link:hover {
+    transition: all .3s;
+    cursor: pointer;
+    color: rgb(96, 223, 255);
+    text-shadow: 1px 1px 2px rgb(0, 14, 19);
 }
 /*
 #facebook_ico {
@@ -132,6 +180,11 @@ body {
     align-content: center;
     text-align: center;
 }
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px #01002A;
+}
 
 .main > * {
     background-color: #01002A;
@@ -156,16 +209,14 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
+    
 }
 .download_btn_FWE {
     border-radius: 15px;
 }
-h1 {
-    font-size: 40px;
-    letter-spacing: 2px;
-}
 
 .download_btn_FWE:hover {
+    box-shadow: 1.5px 1.5px 10px rgb(13, 10, 19);
     background-color: rgb(255, 255, 255);
     color: #212121;
 }
@@ -187,12 +238,10 @@ h1 {
 .download_btn_FTD {
     border-radius: 15px;
 }
-h1 {
-    font-size: 40px;
-    letter-spacing: 2px;
-}
 
 .download_btn_FTD:hover {
+    box-shadow: 1.5px 1.5px 10px rgb(13, 10, 19);
+    box-shadow: 2px 2px 10px rgb(13, 10, 19);
     background-color: rgb(255, 255, 255);
     color: #212121;
 }
@@ -288,6 +337,7 @@ h1 {
     position: absolute;
     font-size: 18px;
     font-weight: 900;
+    box-shadow: 8px 8px 5px rgb(13, 10, 19);
 }
 #scroll_anchor {
     border-radius: 100%;
@@ -311,9 +361,67 @@ h1 {
     background-color: rgb(23, 18, 32);
     }
 #section_2 {
-    height: 100px;
+    height: 300px;
     background-color: #130F1B;
     }
+/*section_2 things*/
+
+#main_aboutparagraph {
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(44, 44, 77);
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+#main_aboutparagraph1 {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 1100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+#section_3 {
+    height: 900px;
+    background-color: #130F1B;
+}
+/*section_3 things*/ 
+#main_infoparagrapth {
+    position: absolute;
+    top: 1300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(44, 44, 77);
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+#main_infoparagrapth1 {
+    color: rgb(226, 226, 226);
+    position: absolute;
+    top: 1450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+#Shinsetsu_span {
+    color: rgb(255, 0, 170);
+}
+#Tochi_no_shifuku {
+    color: rgb(0, 195, 255);
+}
+#main_aboutparagraph_span-YOU {
+    color: white;
+}
 
 
 /* Scrollbar */
