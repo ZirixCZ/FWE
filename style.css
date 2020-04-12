@@ -337,8 +337,7 @@ h1 {
     position: absolute;
     font-size: 18px;
     font-weight: 900;
-    box-shadow: 8px 8px 5px rgb(13, 10, 19);
-}
+    box-shadow: 8px 8px 5px rgb(13, 10, 19);}
 #scroll_anchor {
     border-radius: 100%;
 }
@@ -368,7 +367,7 @@ h1 {
 
 #main_aboutparagraph {
     position: absolute;
-    top: 950px;
+    top: 850px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -379,24 +378,30 @@ h1 {
 #main_aboutparagraph1 {
     color: rgb(226, 226, 226);
     position: absolute;
-    top: 1100px;
+    top: 1000px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 17px;
     letter-spacing: 1.5px;
+}
+#main_span_discord {
+    color: #afdfff;
+}
+#main_span_discordlinkcommunity {
+    color: white;
 }
 
 
 
 
 #section_3 {
-    height: 900px;
+    height: 400px;
     background-color: #130F1B;
 }
 /*section_3 things*/ 
 #main_infoparagrapth {
     position: absolute;
-    top: 1300px;
+    top: 1150px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -407,7 +412,7 @@ h1 {
 #main_infoparagrapth1 {
     color: rgb(226, 226, 226);
     position: absolute;
-    top: 1450px;
+    top: 1300px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 17px;
@@ -421,6 +426,10 @@ h1 {
 }
 #main_aboutparagraph_span-YOU {
     color: white;
+}
+#section_4 {
+    height: 400px;
+    background-color: rgb(11, 8, 15);
 }
 
 
